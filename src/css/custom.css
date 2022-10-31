@@ -1,0 +1,47 @@
+.ck-content pre[class]:after {
+content: attr(class);
+position: absolute;
+}
+
+.ck-content pre[class]:after {
+    color: #fff;
+    font-family: var(--ck-font-face);
+    font-size: 10px;
+    line-height: 16px;
+    padding: var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    right: 15px;
+    margin-top:20px;
+    white-space: nowrap;
+}
+
+.submenulist{
+  cursor: pointer;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s;
+  margin-left: 20px; 
+}
+.menulist{
+  cursor: pointer;
+  margin-left: 20px; 
+}
+.menulist:hover>.submenulist{
+  max-height: 500px;
+}
+.menushow{
+  max-height: 500px;
+}
+.menutitle{
+  color: white;
+  font-weight:bold;
+}
+.menutitle:hover{
+    color: aqua;
+}
+.submenutitle{
+  color: white;
+}
+
+.submenutitle:hover{
+    color: aqua;
+} 

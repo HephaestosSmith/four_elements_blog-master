@@ -1,0 +1,82 @@
+{
+  "name": "four_elements_blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "@ckeditor/ckeditor5-alignment": "^34.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^34.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^34.0.0",
+    "@ckeditor/ckeditor5-code-block": "^34.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^30.1.3",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^30.1.3",
+    "@ckeditor/ckeditor5-editor-classic": "^34.0.0",
+    "@ckeditor/ckeditor5-essentials": "^34.0.0",
+    "@ckeditor/ckeditor5-font": "^34.0.0",
+    "@ckeditor/ckeditor5-highlight": "^34.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^34.0.0",
+    "@ckeditor/ckeditor5-image": "^34.0.0",
+    "@ckeditor/ckeditor5-link": "^34.0.0",
+    "@ckeditor/ckeditor5-mention": "^34.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^34.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^34.0.0",
+    "@ckeditor/ckeditor5-upload": "^34.0.0",
+    "@ckeditor/ckeditor5-vue": "^4.0.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.8.3",
+    "jquery": "^3.6.0",
+    "mutationobserver-shim": "^0.3.7",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "postcss": "^8.4.13",
+    "postcss-import": "^14.1.0",
+    "postcss-loader": "^4.3.0",
+    "prismjs": "^1.28.0",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^12.6.0",
+    "vue": "^3.2.13",
+    "vue-cookie": "^1.1.4",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.26.11",
+    "vue-cli-plugin-bootstrap-vue": "^0.8.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
